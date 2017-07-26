@@ -6,6 +6,8 @@
 'use strict';
 
 var yog = require('yog2-kernel');
+var checkShowStatus = require('./app/home/action/api/douyu/checkShowStatus');
+checkShowStatus();
 
 var app = yog.bootstrap({
   rootPath: __dirname
